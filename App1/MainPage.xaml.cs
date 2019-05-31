@@ -40,7 +40,7 @@ namespace App1
 
             text = Eingabe.Text.ToString();
 
-            Ausgabe.Text = text;
+            Ausgabe.Text = Ausgabe.Text + '\n' + text;
         }
     }
 }
