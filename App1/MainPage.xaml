@@ -10,7 +10,7 @@
 
     <Grid>
         <Button Name="Knopf" Content="Drück mich" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI" Click="Knopf_Click"/>
-        <TextBlock Name="Ausgabe" HorizontalAlignment="center" Text="hier steht text" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,800,0,6" Foreground="White" FontFamily="Segoe UI"/>
+        <TextBlock Name="Ausgabe" HorizontalAlignment="center" Text="hier steht text" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="0,800,0,6" Foreground="White" FontFamily="Segoe UI"/>
         <TextBox Name="Eingabe" HorizontalAlignment="Center" Text="TextBox" VerticalAlignment="Top" Margin="0,300,0,0"/>
     </Grid>
 </Page>
